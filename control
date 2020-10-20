@@ -1,4 +1,4 @@
-Package: jp.akusio.kernbypass
+Package: com.Apple.MrSpinner
 Name: KernBypass
 Version: 0.0.3
 Depends: mobilesubstrate, applist, preferenceloader, Firmware(>=12.0)
