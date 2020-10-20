@@ -32,4 +32,4 @@ before-package::
 	/usr/bin/ldid -S./ent.plist $(THEOS_STAGING_DIR)/usr/bin/preparerootfs	
 
 SUBPROJECTS += zzzzzzzzznotifychroot
-##include $(THEOS_MAKE_PATH)/aggregate.mk
+include $(THEOS_MAKE_PATH)/aggregate.mk
