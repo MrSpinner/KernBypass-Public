@@ -18,7 +18,7 @@ ifdef USE_JELBREK_LIB
 	changerootfs_LDFLAGS = $(LIB_DIR)/jelbrekLib.dylib
 endif
 
-include $(THEOS)/makefiles/tool.mk
+include /var/mobile/theos/makefiles/tool.mk
 
 ifdef USE_JELBREK_LIB
 before-package::
@@ -32,4 +32,4 @@ before-package::
 	/usr/bin/ldid -S./ent.plist $(THEOS_STAGING_DIR)/usr/bin/preparerootfs	
 
 SUBPROJECTS += zzzzzzzzznotifychroot
-include $(THEOS)/makefiles/aggregate.mk
+include /var/mobile/theos/makefiles/aggregate.mk
